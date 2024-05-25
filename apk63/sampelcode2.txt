@@ -1,0 +1,50 @@
+10.05.2023 by Harry Witriyono
+================================================
+1. Kode CSS Bootstrap pembentuk pembagian baris 
+================================================
+<div class="row">
+
+</div>
+
+======================================================
+2. Kode CSS Bootstrap pembagian kolom dalam class row
+======================================================
+ <div class="col-sm-8">
+ 
+ </div>
+
+======================================================
+3. Kode CSS mengkelompokan input group form
+=======================================================
+<form name="frmcari" method="post" class="input-group mb-8">
+   <input type="text" class="form-control" placeholder="Search">
+   <button class="btn btn-success" type="submit">Go</button>
+  </form>
+
+========================================================
+4. Kode CSS Bootstrap untuk tabel :
+========================================================
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+    </tbody>
+</table>
+
+==================================================
+5. CSS Bootstrap alert :
+==================================================
+<div class="alert alert-success alert-dismissible">
+  <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  <strong>Success!</strong> This alert box could indicate a successful or positive action.
+</div>
